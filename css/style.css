@@ -143,5 +143,11 @@ img {
  }
 
  @media screen and (max-width:480px) {
-
+    .row {
+        flex-wrap:wrap;
+    }
+    
+    .col {
+        flex-basis: 100%;
+    }
  }
